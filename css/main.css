@@ -1,3 +1,18 @@
+.experience__text, .projects__text {
+  font-size: 15px;
+  line-height: 1.29;
+  letter-spacing: 0.01em;
+  color: #79819A;
+}
+
+.experience__title, .projects__title {
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.01em;
+  font-weight: 500;
+  color: #2E2E48;
+}
+
 h1,
 h2,
 h3,
@@ -138,17 +153,52 @@ body {
 }
 
 .projects__title {
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.01em;
   margin-bottom: 6px;
-  font-weight: 500;
-  color: #2E2E48;
 }
 
-.projects__text {
-  font-size: 15px;
-  line-height: 1.29;
+.experience__wrap {
+  display: flex;
+  align-items: center;
+  padding: 20px 24px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background-color: #fff;
+}
+
+.experience__inner-wrap {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.experience__logo {
+  margin-right: 16px;
+  border-radius: 6px;
+}
+
+.experience__text {
+  margin-bottom: 4px;
+}
+
+.experience__date {
+  font-size: 13px;
+  line-height: 1.33;
   letter-spacing: 0.01em;
+  margin-bottom: 4px;
+  color: #47516B;
+}
+
+.experience__location {
+  font-size: 12px;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  display: flex;
+  align-items: center;
+  gap: 4px;
   color: #79819A;
+}
+
+.experience__svg {
+  fill: #79819A;
 }/*# sourceMappingURL=main.css.map */

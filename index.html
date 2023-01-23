@@ -141,7 +141,8 @@
             <a href="https://anvomm.github.io/ice_cream_group_2/">
               <img class="projects__image_odd" src="./images/ice_cream.jpg" alt="IceCream main page" width="380px"
                 height="180px" />
-              <div class="projects__item_bottom"><p class="projects__title">IceCream</p>
+              <div class="projects__item_bottom">
+                <p class="projects__title">IceCream</p>
                 <p class="projects__text">
                   Ice cream company landing. Team project, team leader role. Using
                   HTML, SASS, Parcel, JS
@@ -153,7 +154,8 @@
             <a href="https://anvomm.github.io/goit-markup-hw-08/">
               <img class="projects__image_even" src="./images/web_studio.jpg" alt="WebStudio main page" width="380px"
                 height="180px" />
-              <div class="projects__item_bottom"><p class="projects__title">WebStudio</p>
+              <div class="projects__item_bottom">
+                <p class="projects__title">WebStudio</p>
                 <p class="projects__text">
                   Web design company web-page. Individual project. Using HTML, SASS,
                   JS
@@ -163,18 +165,29 @@
           </li>
         </ul>
       </section>
-      <section class="right-side__section">
+      <section class="right-side__section experience">
         <h2 class="title">Experience</h2>
-        <img src="./images/itk.jpg" alt="East Tallinn Central Hospital logo" width="50px">
-        <p>Laboratory specialist</p>
-        <p>East Tallinn Central Hospital</p>
-        <p>
+        <div class="experience__wrap">
+          <img class="experience__logo" src="./images/itk.jpg" alt="East Tallinn Central Hospital logo" width="50px">
+          <div class="experience__inner-wrap">
+            <div class="experience__left-wrap">
+              <p class="experience__text">Laboratory specialist</p>
+              <p class="experience__title">East Tallinn Central Hospital</p>
+            </div>
+            <div>
+              <p class="experience__date">Oct 2011 - May 2022</p>
+              <p class="experience__location"><svg class="experience__svg" width="10" height="10">
+                  <use href="./images/sprite.svg#location"></use>
+                </svg>Tallinn, Estonia</p>
+            </div>
+          </div>
+        </div>
+        <p class="experience__text">
           I have run the gamut of immunological laboratory work from laboratory
           assistant to laboratory specialist. My main tasks were to put laboratory
           inner documents into shape, to insure laboratory right work, to
           interpret some results of analyses and to implement new methods.
         </p>
-        <p>Oct 2011- May 2022</p>
       </section>
       <section class="right-side__section">
         <h2 class="title">Skills</h2>

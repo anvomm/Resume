@@ -1,0 +1,51 @@
+.experience__wrap {
+    display: flex;
+    align-items: center;
+    padding: 20px 24px;
+    margin-bottom: 10px;
+
+    border-radius: 6px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: #fff;
+}
+
+.experience__inner-wrap {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.experience__logo {
+    margin-right: 16px;
+    border-radius: 6px;
+}
+
+.experience__text {
+    @extend %light-text;
+    margin-bottom: 4px;
+}
+
+.experience__title {
+    @extend %dark-text;
+}
+
+.experience__date {
+    @include font-sizing (13px, 1.33);
+    margin-bottom: 4px;
+
+    color: $secondary-light-color;
+}
+
+.experience__location {
+    @include font-sizing (12px, 1.4);
+
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+    color: $light-text-color;
+}
+
+.experience__svg {
+    fill: $light-text-color;
+}
