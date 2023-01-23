@@ -1,0 +1,24 @@
+.title {
+    position: relative;
+    margin-bottom: 16px;
+
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    line-height: 1.33;
+    letter-spacing: 0.01em;
+    font-weight: 500;
+
+    color: $dark-text-color;
+  }
+
+  .title::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -67px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 10px solid #fff;
+    background-color: #5531A7;
+  }
