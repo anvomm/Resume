@@ -8,7 +8,7 @@
   .projects__item {
     width: 380px;
 
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     background-color: #fff;
     transition: transform 250ms linear, box-shadow 250ms linear;
 
@@ -40,16 +40,11 @@
   }
 
   .projects__title {
-    @include font-sizing (16px, 1.25);
+   @extend %dark-text;
 
     margin-bottom: 6px;
-    font-weight: 500;
-
-    color: $dark-text-color;
   }
 
   .projects__text {
-    @include font-sizing (15px, 1.29); 
-    
-    color: $light-text-color;
+    @extend %light-text;
   }
