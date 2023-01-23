@@ -1,4 +1,4 @@
-.experience__text, .projects__text {
+.skills__item, .experience__text, .projects__text {
   font-size: 15px;
   line-height: 1.29;
   letter-spacing: 0.01em;
@@ -202,4 +202,71 @@ body {
 
 .experience__svg {
   fill: #79819A;
+}
+
+.skills__wrap {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.tech__wrap {
+  margin-bottom: 16px;
+}
+
+.skills__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.skills__category {
+  font-size: 15px;
+  line-height: 1.29;
+  letter-spacing: 0.01em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+  color: #2E2E48;
+}
+
+.skills__tech-svg {
+  background-color: #f0dff7;
+  padding: 6px;
+  border-radius: 50%;
+  fill: #9251F7;
+}
+
+.skills__item {
+  padding: 23px 16px;
+  background-color: #fff;
+}
+.skills__item:nth-child(1) {
+  border-radius: 6px 0px 0px 6px;
+}
+.skills__item:last-child {
+  border-radius: 0px 6px 6px 0px;
+}
+
+.skills__item_tech {
+  color: #9251F7;
+}
+
+.skills__item_soft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 38px;
+  color: #516CF7;
+}
+
+.skills__soft-svg {
+  background-color: #e6eef7;
+  padding: 6px;
+  border-radius: 50%;
+  fill: #516CF7;
 }/*# sourceMappingURL=main.css.map */
