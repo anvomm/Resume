@@ -2,9 +2,9 @@
     display: flex;
     align-items: center;
     padding: 20px 24px;
-    margin-bottom: 10px;
+    margin-bottom: 16px;
 
-    border-radius: 6px;
+    border-radius: 8px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     background-color: #fff;
 }
@@ -18,7 +18,7 @@
 
 .experience__logo {
     margin-right: 16px;
-    border-radius: 6px;
+    border-radius: 8px;
 }
 
 .experience__text {
@@ -38,13 +38,11 @@
 }
 
 .experience__location {
-    @include font-sizing (12px, 1.4);
+    @extend %ligh-small-text;
 
     display: flex;
     align-items: center;
     gap: 4px;
-
-    color: $light-text-color;
 }
 
 .experience__svg {

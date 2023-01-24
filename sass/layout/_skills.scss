@@ -17,16 +17,12 @@
 }
 
 .skills__category {
-    @include font-sizing(15px, 1.29);
+    @extend %dark-small-text;
 
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 8px;
-
-    font-weight: 500;
-    
-    color: $dark-text-color;
 }
 
 .skills__tech-svg {
@@ -39,14 +35,16 @@
 .skills__item {
     @extend %light-text;
     padding: 23px 16px;
+
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     background-color: #fff;
 
     &:nth-child(1) {
-        border-radius: 6px 0px 0px 6px;
+        border-radius: 8px 0px 0px 8px;
     }
 
     &:last-child {
-        border-radius: 0px 6px 6px 0px;
+        border-radius: 0px 8px 8px 0px;
     }
 }
 
