@@ -19,7 +19,7 @@
         <p>
           I am a Junior Full Stack Developer. Since I have recently finished my IT
           education, I do not have work experience yet. But I have participated in
-          several team projects and I also have several personal projects. I am
+          several team projects and also have several personal projects. I am
           extremely motivated to apply my knowledges and to obtain new experience.
         </p>
       </section>
@@ -87,8 +87,8 @@
         <ul class="projects">
           <li class="projects__item">
             <a href="https://anvomm.github.io/goit-react-hw-08-phonebook/" target="_blank">
-              <img class="projects__image_odd" src="./images/phonebook.jpg" alt="Phonebook app main page" width="380px"
-                height="180px" />
+              <img class="projects__image_first" src="./images/phonebook.jpg" alt="Phonebook app main page"
+                width="380px" height="180px" />
               <div class="projects__item_bottom">
                 <p class="projects__title">Phonebook</p>
                 <p class="projects__text">
@@ -100,7 +100,7 @@
           </li>
           <li class="projects__item">
             <a href="https://anvomm.github.io/goit-react-hw-05-movies/" target="_blank">
-              <img class="projects__image_even" src="./images/mymovie.jpg" alt="MyMovie main page" width="380px"
+              <img class="projects__image_second" src="./images/mymovie.jpg" alt="MyMovie main page" width="380px"
                 height="180px" />
               <div class="projects__item_bottom">
                 <p class="projects__title">MyMovie</p>
@@ -113,8 +113,7 @@
           </li>
           <li class="projects__item">
             <a href="https://anvomm.github.io/filmoteka_team_2/" target="_blank">
-              <img class="projects__image_odd" src="./images/filmoteka.jpg" alt="Filmoteka main page" width="380px"
-                height="180px" />
+              <img src="./images/filmoteka.jpg" alt="Filmoteka main page" width="380px" height="180px" />
               <div class="projects__item_bottom">
                 <p class="projects__title">Filmoteka</p>
                 <p class="projects__text">
@@ -126,8 +125,7 @@
           </li>
           <li class="projects__item">
             <a href="https://anvomm.github.io/konteinermaja/" target="_blank">
-              <img class="projects__image_even" src="./images/konteinermaja.jpg" alt="Konteinermaja main page"
-                width="380px" height="180px" />
+              <img src="./images/konteinermaja.jpg" alt="Konteinermaja main page" width="380px" height="180px" />
               <div class="projects__item_bottom">
                 <p class="projects__title">KonteinerMaja</p>
                 <p class="projects__text">
@@ -139,8 +137,7 @@
           </li>
           <li class="projects__item">
             <a href="https://anvomm.github.io/ice_cream_group_2/" target="_blank">
-              <img class="projects__image_odd" src="./images/ice_cream.jpg" alt="IceCream main page" width="380px"
-                height="180px" />
+              <img src="./images/ice_cream.jpg" alt="IceCream main page" width="380px" height="180px" />
               <div class="projects__item_bottom">
                 <p class="projects__title">IceCream</p>
                 <p class="projects__text">
@@ -152,8 +149,7 @@
           </li>
           <li class="projects__item">
             <a href="https://anvomm.github.io/goit-markup-hw-08/" target="_blank">
-              <img class="projects__image_even" src="./images/web_studio.jpg" alt="WebStudio main page" width="380px"
-                height="180px" />
+              <img src="./images/web_studio.jpg" alt="WebStudio main page" width="380px" height="180px" />
               <div class="projects__item_bottom">
                 <p class="projects__title">WebStudio</p>
                 <p class="projects__text">
@@ -224,65 +220,90 @@
           </ul>
         </div>
       </section>
-      <section>
+      <section class="education">
         <h2 class="title">Education</h2>
-        <ul>
-          <li>
-            <svg width="26" height="26">
-              <use href="./images/sprite.svg#tlu"></use>
-            </svg>
-            <p>Tallinn University</p>
-            <p>Molecular Biochemistry and Ecology</p>
-            <p>2013-2015, Master degree</p>
+        <ul class="education__list">
+          <li class="education__item">
+            <div>
+              <div class="education__wrap">
+                <svg width="48" height="48">
+                  <use href="./images/sprite.svg#tlu"></use>
+                </svg>
+                <p class="education__school">Tallinn University</p>
+              </div>
+              <p class="education__subject">Molecular Biochemistry and Ecology</p>
+            </div>
+            <p class="education__date">2013-2015, Master degree</p>
           </li>
-          <li>
-            <svg width="26" height="26">
-              <use href="./images/sprite.svg#taltech"></use>
-            </svg>
-            <p>Tallinn Technical University</p>
-            <p>Gene Technology</p>
-            <p>2008-2011, Bachelor degree</p>
+          <li class="education__item">
+            <div>
+              <div class="education__wrap">
+                <svg width="48" height="48">
+                  <use href="./images/sprite.svg#taltech"></use>
+                </svg>
+                <p class="education__school">Tallinn Technical University</p>
+              </div>
+              <p class="education__subject">Gene Technology</p>
+            </div>
+            <p class="education__date">2008-2011, Bachelor degree</p>
           </li>
-          <li>
-            <svg width="26" height="26">
-              <use href="./images/sprite.svg#goit"></use>
-            </svg>
-            <p>GoIT School</p>
-            <p>Full Stack Development</p>
-            <p>May 2022 - Mar 2023</p>
+          <li class="education__item">
+            <div>
+              <div class="education__wrap">
+                <svg width="48" height="48">
+                  <use href="./images/sprite.svg#goit"></use>
+                </svg>
+                <p class="education__school">GoIT School</p>
+              </div>
+              <p class="education__subject">Full Stack Development</p>
+            </div>
+            <p class="education__date">May 2022 - Mar 2023</p>
           </li>
-          <li><svg width="26" height="26">
+          <!-- <li><svg width="26" height="26">
               <use href="./images/sprite.svg#coursera"></use>
             </svg>
             <p>Coursera</p>
             <p>Graph Search, Shortest Paths, and Data Structures</p>
             <p>Jan 2023</p>
+          </li> -->
+          <li class="education__item">
+            <div>
+              <div class="education__wrap">
+                <svg class="education__svg" width="48" height="48">
+                  <use href="./images/sprite.svg#coursera"></use>
+                </svg>
+                <p class="education__school">Coursera</p>
+              </div>
+              <p class="education__subject">
+                Divide and Conquer, Sorting and Searching, and Randomized Algorithms
+              </p>
+            </div>
+            <p class="education__date">Nov 2022</p>
           </li>
-          <li>
-            <svg width="26" height="26">
-              <use href="./images/sprite.svg#coursera"></use>
-            </svg>
-            <p>Coursera</p>
-            <p>
-              Divide and Conquer, Sorting and Searching, and Randomized Algorithms
-            </p>
-            <p>Nov 2022</p>
+          <li class="education__item">
+            <div>
+              <div class="education__wrap">
+                <svg class="education__svg" width="48" height="48">
+                  <use href="./images/sprite.svg#coursera"></use>
+                </svg>
+                <p class="education__school">Coursera</p>
+              </div>
+              <p class="education__subject">Internet History, Technology, and Security</p>
+            </div>
+            <p class="education__date">Apr 2022</p>
           </li>
-          <li>
-            <svg width="26" height="26">
-              <use href="./images/sprite.svg#coursera"></use>
-            </svg>
-            <p>Coursera</p>
-            <p>History, Technology, and Security</p>
-            <p>Apr 2022</p>
-          </li>
-          <li>
-            <svg width="26" height="26">
-              <use href="./images/sprite.svg#coursera"></use>
-            </svg>
-            <p>Coursera</p>
-            <p>Programming for everybody, Python specialization</p>
-            <p>Feb 2022 - Apr 2022</p>
+          <li class="education__item">
+            <div>
+              <div class="education__wrap">
+
+                <svg class="education__svg" width="48" height="48">
+                  <use href="./images/sprite.svg#coursera"></use>
+                </svg>
+                <p class="education__school">Coursera</p>
+              </div>
+              <p class="education__subject">Programming for everybody, Python specialization</p>
+            </div>
+            <p class="education__date">Feb 2022 - Apr 2022</p>
           </li>
         </ul>
       </section>

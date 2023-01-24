@@ -1,0 +1,65 @@
+.education__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.education__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 16px 24px;
+    width: 206px;
+    height: 130px;
+
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: #fff;
+
+    &:first-child {
+        border-top-left-radius: 8px;
+    }
+
+    &:last-child {
+        border-bottom-right-radius: 8px;
+    }
+
+    &:nth-child(3) {
+        border-top-right-radius: 8px;
+    }
+
+    &:nth-child(4) {
+        border-bottom-left-radius: 8px;
+    }
+}
+
+.education__wrap {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 8px;
+}
+
+.education__school {
+    @include font-sizing (13px, 1.33);
+    font-weight: 500;
+
+    color: $dark-text-color;
+}
+
+.education__subject {
+    @extend %dark-small-text;
+}
+
+.education__date {
+    @extend %ligh-small-text;
+}
+
+.education__svg {
+    fill: #161fd9;
+}
+
+.education__bottom-wrap {
+    display: flex;
+    flex-direction: column;
+}
