@@ -4,9 +4,22 @@
     color: $light-text-color;
 }
 
+%ligh-small-text {
+    @include font-sizing (12px, 1.4);
+
+    color: $light-text-color;
+}
+
 %dark-text {
     @include font-sizing (16px, 1.25);
     font-weight: 500;
 
+    color: $dark-text-color;
+}
+
+%dark-small-text {
+    @include font-sizing(15px, 1.29);
+    font-weight: 500;
+    
     color: $dark-text-color;
 }
