@@ -198,7 +198,7 @@ body {
   background-color: #E2E6EE;
 }
 
-.contacts__item {
+.contacts__item:not(:last-child) {
   margin-bottom: 28px;
 }
 
@@ -253,10 +253,12 @@ body {
 }
 
 .language {
-  margin-bottom: 24px;
   display: flex;
   align-items: center;
   gap: 20px;
+}
+.language:not(:last-child) {
+  margin-bottom: 24px;
 }
 
 .language__text {

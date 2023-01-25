@@ -11,10 +11,13 @@
 }
 
 .language {
-    margin-bottom: 24px;
     display: flex;
     align-items: center;
     gap: 20px;
+
+    &:not(:last-child) {
+        margin-bottom: 24px;
+    }
 }
 
 .language__text {
